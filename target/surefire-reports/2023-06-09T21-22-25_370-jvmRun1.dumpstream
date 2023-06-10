@@ -1,0 +1,9 @@
+# Created at 2023-06-09T21:32:33.131
+An unknown server-side error occurred while processing the command. Original error: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [aed7d733-1eff-41d7-b470-d99c4ee93500, screenshot {}]
+Capabilities {appium:app: C:\Users\Ensx-pc\eclipse-wo..., appium:appPackage: com.dev.messengerx, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Ensx-pc\eclipse-wo..., autoGrantPermissions: true, automationName: UIAutomator2, newCommandTimeout: 90, platformName: ANDROID, systemPort: 8300, udid: emulator-5554}, appium:deviceApiLevel: 31, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 240, appium:deviceScreenSize: 720x1280, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 90, appium:pixelRatio: 1.5, appium:platformVersion: 12, appium:statBarHeight: 36, appium:systemPort: 8300, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 1172, left: 0, top: 36, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: aed7d733-1eff-41d7-b470-d99c4ee93500
+

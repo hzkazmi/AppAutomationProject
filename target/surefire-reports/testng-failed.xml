@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="testcases.ChatErrorValidationsTest">
+        <methods>
+          <include name="configureAppium"/>
+          <include name="selectMoreThan4Images"/>
+          <include name="browseInvalidVideo"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.ChatErrorValidationsTest -->
+      <class name="testcases.SettingsTest">
+        <methods>
+          <include name="changePin"/>
+          <include name="changePassword"/>
+          <include name="configureAppium"/>
+          <include name="enabletwoStepVerification"/>
+          <include name="reversePin"/>
+          <include name="tearDown"/>
+          <include name="enableReverse"/>
+          <include name="disabletwoStepVerification"/>
+        </methods>
+      </class> <!-- testcases.SettingsTest -->
+      <class name="testcases.LoginTest">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testcases.LoginTest -->
+      <class name="testcases.PrivacyTest">
+        <methods>
+          <include name="setupPhrase"/>
+          <include name="configureAppium"/>
+          <include name="verifyBlockedList"/>
+          <include name="block"/>
+          <include name="isUnblocked"/>
+          <include name="tearDown"/>
+          <include name="unblock"/>
+          <include name="setupQuestions"/>
+        </methods>
+      </class> <!-- testcases.PrivacyTest -->
+      <class name="testcases.ChatTest">
+        <methods>
+          <include name="captureVideo"/>
+          <include name="disappearingImage"/>
+          <include name="browseMultiImage"/>
+          <include name="browseImage"/>
+          <include name="browseValidVideo"/>
+          <include name="BeforeChat"/>
+          <include name="shareContact"/>
+          <include name="textMsg"/>
+          <include name="disappearingMsg"/>
+          <include name="captureImage"/>
+          <include name="sendPendingMsg"/>
+          <include name="afterChat"/>
+        </methods>
+      </class> <!-- testcases.ChatTest -->
+      <class name="testcases.RegisterTest">
+        <methods>
+          <include name="Register"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="invalidRegister"/>
+        </methods>
+      </class> <!-- testcases.RegisterTest -->
+      <class name="testcases.VideoCallTest">
+        <methods>
+          <include name="videoCallDuration"/>
+          <include name="Setup"/>
+          <include name="videoCall"/>
+          <include name="quitDrivers"/>
+        </methods>
+      </class> <!-- testcases.VideoCallTest -->
+      <class name="testcases.InviteLinkTest">
+        <methods>
+          <include name="configureAppium"/>
+          <include name="tearDown"/>
+          <include name="generateLink"/>
+        </methods>
+      </class> <!-- testcases.InviteLinkTest -->
+      <class name="testcases.AudioCallTest">
+        <methods>
+          <include name="BeforeChat"/>
+          <include name="AudioCall"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- testcases.AudioCallTest -->
+      <class name="testcases.AddContactTest">
+        <methods>
+          <include name="configureAppium"/>
+          <include name="tearDown"/>
+          <include name="addContact"/>
+        </methods>
+      </class> <!-- testcases.AddContactTest -->
+      <class name="testcases.EditProfileTest">
+        <methods>
+          <include name="quit"/>
+          <include name="configureAppium"/>
+          <include name="invalidProfileName"/>
+          <include name="editProfile"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.EditProfileTest -->
+      <class name="testcases.SignOutTest">
+        <methods>
+          <include name="signOut"/>
+          <include name="configureAppium"/>
+          <include name="switchAccount"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.SignOutTest -->
+      <class name="testcases.ResetPasswordTest">
+        <methods>
+          <include name="resetByEmail"/>
+          <include name="quit"/>
+          <include name="resetByQs"/>
+          <include name="configure"/>
+          <include name="resetByPhrase"/>
+        </methods>
+      </class> <!-- testcases.ResetPasswordTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

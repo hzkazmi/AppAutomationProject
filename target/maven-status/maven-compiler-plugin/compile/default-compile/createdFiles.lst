@@ -1,0 +1,12 @@
+locators\RegisterLocators.class
+locators\CallLocators.class
+locators\SingleChatLocators.class
+locators\SettingsLocators.class
+utils\AppiumUtils.class
+locators\LoginLocators.class
+locators\CallLocators$2.class
+locators\CallLocators$3.class
+locators\ContactLocators.class
+locators\ResetPasswordLocators.class
+basePage\BasePage.class
+locators\CallLocators$1.class

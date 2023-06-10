@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!--Both servers started, Both emulators+Vivo attached, No contacts on 276, 5 Images, Invalid video first, valid 2nd, Select an image from recent, reverse pin disabled, password=Aa1-->
+<suite name="Smoke">
+<listeners>
+	<listener class-name="reporting.Listeners"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testcases.RegisterTest"/>
+      <class name="testcases.LoginTest"/>
+      <class name="testcases.ChatTest"/>
+      <class name="testcases.ChatErrorValidationsTest"/>
+      <class name="testcases.AudioCallTest"/>
+      <class name="testcases.VideoCallTest"/>
+      <class name="testcases.AddContactTest"/>
+      <class name="testcases.PrivacyTest"/>
+      <class name="testcases.SettingsTest"/>
+      <class name="testcases.InviteLinkTest"/>
+      <class name="testcases.ResetPasswordTest"/>
+      <class name="baseTest.BaseTest"/>
+      <class name="testcases.SignOutTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Smoke -->
