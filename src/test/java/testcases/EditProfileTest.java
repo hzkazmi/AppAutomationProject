@@ -21,10 +21,4 @@ public class EditProfileTest extends BaseTest{
 		settingsLocators=chatsPage.gotoSettingsMenu();
 		Assert.assertTrue(settingsLocators.verifyInvalidName("xpal"));
 	}
-	
-	@AfterMethod
-	public void quit() {
-		driver.quit();
-	}
-	
 }
